@@ -146,7 +146,7 @@ function iniciar() {
                         <br><label id='myb3'>3ºB: </label> <br><hr>
                         <br> <label id='myb4'>4ºB: </label><br><hr>
                         <label id='myfaltas'><br>Faltas: </label> <hr>
-                        <label id='myobs'>Anotações: <br></label>
+                        <label id='myobs'>Obs: <br></label>
   
                     </div>
         
