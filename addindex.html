@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="portuguese">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="addstyle.css">
+</head>
+
+<body>
+    <div id="superc">
+        <div id="cb">
+            <h1>Gerenciamento Estudantil</h1>
+        </div>
+        <div id="cb2">
+            <a href="addindex.html"><div id="d1">Adicionar novo Aluno</div></a>
+            <a href="editPage.html"><div id="d2">Editar dados</div></a>
+            <a href="deletePage.html"><div id="d3">Deletar dados</div></a>
+            <a href="indexLista.html"><div id="d4"> Lista de Alunos</div></a>
+    
+        </div>
+    
+    
+    
+    
+    
+        <div id="container">
+            <div id="is">
+                <div id="dvbts">
+                    <button onclick="a6()" id="bts6">6°</button>
+                    <button onclick="a7()" id="bts7">7°</button>
+                    <button onclick="a8()" id="bts8">8°</button>
+                    <button onclick="a9()" id="bts9">9°</button>
+                </div>
+                <div id="dvano">
+                    <label id="ano">escolha a turma</label> <br>
+                </div>
+                <input id="a" type="text" placeholder="Nome do Aluno">
+                <input id="b1" type="number" placeholder="Nota 1 Bimestre">
+                <input id="b2" type="number" placeholder="Nota 2 Bimestre">
+                <input id="b3" type="number" placeholder="Nota 3 Bimestre">
+                <input id="b4" type="number" placeholder="Nota 4 Bimestre">
+                <input id="faltas" type="number" placeholder="Faltas do Aluno">
+                <textarea id="obs" cols="30" rows="5"></textarea>
+                
+                <div id="dvbtn">
+                    <button id="btn1" onclick="f1()" >ADICIONAR ALUNO</button>
+                </div>
+            </div>
+            <div id="ra">
+                <label id="lano">...</label>
+                <label id="l1">...</label>
+                <label id="l2">...</label>
+                <label id="l3">...</label>
+                <label id="l4">...</label>
+                <label id="l5">...</label>
+                <label id="l6">...</label>
+                <label id="l7">...</label>
+    
+            </div>
+            
+        </div>
+
+    </div>
+    
+
+
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyCkGn9lsPWs-ggcxFd6fJTdzrNrHj3rKX4",
+            authDomain: "colegio-9fe74.firebaseapp.com",
+            projectId: "colegio-9fe74",
+            storageBucket: "colegio-9fe74.appspot.com",
+            messagingSenderId: "698461088414",
+            appId: "1:698461088414:web:e673df7fb9711253a5a98f"
+        };
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+
+    </script>
+    <script src="addscript.js"></script>
+</body>
+
+</html>

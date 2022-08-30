@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="portuguese">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="deletstyle.css">
+</head>
+
+<body>
+    <!-- https://www.youtube.com/watch?v=spgu7it3ODY -->
+    <div id="superc">
+        <div id="cb">
+            <h1>Gerenciamento Estudantil</h1>
+        </div>
+        
+        <div id="cb2">
+            <a href="addindex.html"><div id="d1">Adicionar novo Aluno</div></a>
+            <a href="editPage.html"><div id="d2">Editar dados</div></a>
+            <a href="deletePage.html"><div id="d3">Deletar dados</div></a>
+            <a href="indexLista.html"><div id="d4"> Lista de Alunos</div></a>
+    
+        </div>
+        <div id="salas">
+           
+                <div onclick="ano6()" id="a6">6ºAno</div>
+                <div onclick="ano7()" id="a7">7ºAno</div>
+                <div onclick="ano8()" id="a8">8ºAno</div>
+                <div onclick="ano9()" id="a9">9ºAno</div>
+            
+        </div>
+
+        <div id="container">
+
+        
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyCkGn9lsPWs-ggcxFd6fJTdzrNrHj3rKX4",
+            authDomain: "colegio-9fe74.firebaseapp.com",
+            projectId: "colegio-9fe74",
+            storageBucket: "colegio-9fe74.appspot.com",
+            messagingSenderId: "698461088414",
+            appId: "1:698461088414:web:e673df7fb9711253a5a98f"
+        };
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+
+    </script>
+    <script src="deleteScript.js"></script>
+</body>
+
+</html>

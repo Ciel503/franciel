@@ -1,0 +1,268 @@
+body{
+    background-image: url(img.jpg);
+    background-size: cover;
+}
+
+*{
+    text-transform: capitalize;
+    margin: 0px;
+    padding: 0px;
+}
+#cb{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    
+    color: white;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#cb2{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#d1{
+    padding: 2px;
+    border:solid;
+    border-color: greenyellow;
+    border-radius: 8px;
+    font-weight: bolder;
+    width: 100px;
+    color:white;
+    background-color: rgba(7, 14, 236, 0.266);
+}
+#d2{
+    background-color: rgba(7, 14, 236, 0.266);
+    word-wrap: break-word;
+    box-sizing: border-box;
+    padding: 2px;
+    border:solid;
+    border-radius: 8px;
+    border-color: greenyellow;
+    font-weight: bolder;
+    width: 100px;
+    color:white;
+    
+}
+#d3{
+    background-color: rgba(7, 14, 236, 0.266);
+    word-wrap: break-word;
+    box-sizing: border-box;
+    padding: 2px;
+    border:solid;
+    border-radius: 8px;
+    border-color: greenyellow;
+    font-weight: bolder;
+    width: 100px;
+    color:white;
+}
+#d4{
+    background-color: rgba(7, 14, 236, 0.266);
+    word-wrap: break-word;
+    box-sizing: border-box;
+    padding: 2px;
+    border:solid;
+    border-radius: 8px;
+    border-color: greenyellow;
+    font-weight: bolder;
+    width: 100px;
+    color:white;
+}
+#d1:hover,#d2:hover,#d3:hover,#d4:hover{
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+
+}
+a{
+    text-decoration: none;
+}
+
+
+#superc{
+    
+    max-width: 600px;
+    margin: auto;
+    
+}
+
+#a6,#a7,#a8,#a9{
+    cursor: pointer;
+    padding: 5px;
+
+    border-radius: 8px;
+    border: solid;
+    border-color:blue;
+    color: white;
+    
+}
+
+
+#salas{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    
+}
+#a6:active,#a7:active,#a8:active,#a9:active{
+    display: block;
+    cursor: pointer;
+    background-color: blue;
+}
+
+#container{
+    margin-top: 20px;
+}
+
+#cont{
+
+    /* width: 400px; */
+    display: flex;
+    margin-bottom: 10px;
+}
+#ed{
+    word-wrap: break-word  ;
+    font-style:oblique;
+    padding: 5px;
+    min-width: 72px;
+    max-width: 250px;
+    background-color: blueviolet;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+    
+    color: white;
+    
+}
+
+input
+{   
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: solid transparent;
+    border-top-right-radius: 10px;
+    
+
+    
+}
+input:hover{
+    
+    border-color: blue ;
+
+
+}
+
+#inp{
+    word-wrap: break-word;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+#obs{
+    word-wrap: break-word;
+    cursor: pointer;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+   
+}
+
+
+
+#submit{
+    cursor: pointer;
+    margin-top: 0px;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    border-color: blue;
+}
+#submit:hover{
+   
+    background-color: rgb(72, 72, 248);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#pdv6{
+    display: none;
+}
+#a{
+    cursor: text;
+    color: white;
+    background-color: blue;
+}
+#ids{
+ 
+    display: none;
+}
+/* ///////////////Media screm////////// */
+@media screen and (max-width: 600px) {
+
+    #ra{
+        display: none;
+    }
+    #d4{
+        margin-left: 5px;
+        width: 70px;
+    }
+    #d3{
+        margin-left: 5px;
+        width: 70px;
+    }
+    #d2{
+        margin-left: 5px;
+        width: 70px;
+    }
+    #d1{
+        
+        width: 93px;
+    }
+    #cb{
+        font-size: 10px;
+        margin-bottom: 0px;
+       
+
+    }
+    #cb2{
+        
+        justify-content: start;
+        margin-top: 0px;
+      
+    }
+    #a6,#a7,#a8,#a9{
+        margin-left: 10px;
+    }
+    
+
+    #salas{
+        
+        justify-content: start;
+        
+    }
+    
+    #cont{
+        width: 350px;
+        justify-content: center;
+        
+    }
+    #ed{
+        min-width: 44px;
+        max-width: 250px;
+    }
+  }
