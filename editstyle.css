@@ -1,24 +1,26 @@
-body{
+body {
     background-image: url(img.jpg);
     background-size: cover;
 }
 
-*{
+* {
     text-transform: capitalize;
     margin: 0px;
     padding: 0px;
 }
-#cb{
+
+#cb {
     box-sizing: border-box;
     padding: 10px;
     width: 100%;
-    
+
     color: white;
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
-#cb2{
+
+#cb2 {
     box-sizing: border-box;
     padding: 10px;
     width: 100%;
@@ -27,166 +29,180 @@ body{
     flex-direction: row;
     justify-content: space-around;
 
-    
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
-#d1{
+
+#d1 {
     background-color: rgba(7, 14, 236, 0.266);
-    word-wrap: break-word;
+    word-wrap: none;
     box-sizing: border-box;
     padding: 2px;
-    border:solid;
+    border: solid;
     border-radius: 8px;
     border-color: greenyellow;
     font-weight: bolder;
     width: 100px;
-    color:white;
+    color: white;
 }
-#d2{
+
+#d2 {
     background-color: rgba(7, 14, 236, 0.266);
-    word-wrap: break-word;
+    word-wrap: none;
     box-sizing: border-box;
     padding: 2px;
-    border:solid;
+    border: solid;
     border-radius: 8px;
     border-color: greenyellow;
     font-weight: bolder;
     width: 100px;
-    color:white;
-    
+    color: white;
+
 }
-#d3{
+
+#d3 {
     background-color: rgba(7, 14, 236, 0.266);
-    word-wrap: break-word;
+    word-wrap: none;
     box-sizing: border-box;
     padding: 2px;
-    border:solid;
+    border: solid;
     border-radius: 8px;
     border-color: greenyellow;
     font-weight: bolder;
     width: 100px;
-    color:white;
+    color: white;
 }
-#d4{
+
+#d4 {
     background-color: rgba(7, 14, 236, 0.266);
     word-wrap: break-word;
     box-sizing: border-box;
     padding: 2px;
-    border:solid;
+    border: solid;
     border-radius: 8px;
     border-color: greenyellow;
     font-weight: bolder;
     width: 100px;
-    color:white;
+    color: white;
 }
-#d1:hover,#d2:hover,#d3:hover,#d4:hover{
+
+#d1:hover,
+#d2:hover,
+#d3:hover,
+#d4:hover {
     cursor: pointer;
     color: white;
     background-color: blue;
 
 }
-a{
+
+a {
     text-decoration: none;
 }
 
 
-#superc{
-    
-    max-width: 600px;
-    margin: auto;
-    
-}
-
-#a6,#a7,#a8,#a9{
+#a6,
+#a7,
+#a8,
+#a9 {
     cursor: pointer;
     padding: 5px;
 
     border-radius: 8px;
     border: solid;
-    border-color:blue;
+    border-color: blue;
     color: white;
-    
+
 }
 
 
-#salas{
+#salas {
     justify-content: space-around;
     display: flex;
     flex-direction: row;
-    
+
 }
-#a6:active{
+
+#a6:active {
     display: block;
     cursor: pointer;
     background-color: blue;
 }
-
-#container{
-    margin-top: 20px;
+#superc {
+    max-width: 600px;
+    margin: auto;
 }
 
-#cont{
+#container {
+    width: 500px;
+    
+    margin: auto;
+}
 
-    /* width: 400px; */
+#cont {
+    border: solid;
+    border-radius:10px ;
+    border-color:rgb(66, 239, 233) ;
     display: flex;
     margin-bottom: 10px;
 }
-#ed{
-    word-wrap: break-word  ;
-    font-style:oblique;
+
+#ed {
+    word-wrap: none;
+    font-style: oblique;
     padding: 5px;
-    min-width: 72px;
+    min-width: 100px;
     max-width: 250px;
     background-color: blueviolet;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    
-    
+
+
     color: white;
-    
+
 }
 
-input
-{   
+input {
     cursor: pointer;
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
     border: solid transparent;
     border-top-right-radius: 10px;
-    
 
-    
-}
-input:hover{
-    
-    border-color: blue ;
 
 
 }
 
-#inp{
+input:hover {
+
+    border-color: blue;
+
+
+}
+
+#inp {
     word-wrap: break-word;
-    width: 400px;
+    width: 100%;
     background-color: white;
     border-radius: 10px;
-    
+
 }
 
-#obs{
+#obs {
     word-wrap: break-word;
     cursor: pointer;
     width: 100%;
     height: 80px;
     margin-bottom: 0px;
     box-sizing: border-box;
-   
+
 }
 
 
 
-#submit{
+#submit {
     cursor: pointer;
     margin-top: 0px;
     padding: 7px;
@@ -194,76 +210,124 @@ input:hover{
     box-sizing: border-box;
     border-color: blue;
 }
-#submit:hover{
-   
+
+#submit:hover {
+
     background-color: rgb(72, 72, 248);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 
 }
-#pdv6{
+
+#pdv6 {
     display: none;
 }
-#a{
+
+#a {
     cursor: text;
     color: white;
     background-color: blue;
 }
-#ids{
- 
+
+#ids {
+
     display: none;
 }
+
 /* /////////////////////////////////////////////////// */
 @media screen and (max-width: 600px) {
 
-    #ra{
+    #ra {
         display: none;
     }
-    #d4{
-        margin-left: 5px;
+
+    #d4 {
+        margin: 0px;
         width: 70px;
     }
-    #d3{
-        margin-left: 5px;
+
+    #d3 {
+        margin: 0px;
         width: 70px;
     }
-    #d2{
-        margin-left: 5px;
+
+    #d2 {
+        margin: 0px;
         width: 70px;
     }
-    #d1{
+
+    #d1 {
+        margin: 0px;
         width: 93px;
     }
-    #cb{
+
+    #cb {
         font-size: 10px;
         margin-bottom: 0px;
-       
+        margin: 0px;
 
     }
-    #cb2{
-        
-        justify-content: start;
+
+    #cb2 {
+        width: 100%;
+        margin: 0px;
+        justify-content: space-around;
         margin-top: 0px;
-      
+
     }
-    #a6,#a7,#a8,#a9{
+
+    #a6,
+    #a7,
+    #a8,
+    #a9 {
         margin-left: 10px;
     }
-    
 
-    #salas{
-        
+
+    #salas {
+
+        justify-content: space-around;
+
+    }
+
+    #cont {
+        width: 100%;
         justify-content: start;
         
+
     }
-    
-    #cont{
-        width: 350px;
-        justify-content: center;
-        
-    }
-    #ed{
-        min-width: 44px;
+
+    #ed {
+        margin-left:2px ;
+        word-wrap: none;
+        min-width: 60px;
         max-width: 250px;
     }
-  }
+
+    #superc {
+        margin: 0px;
+        width: 100%;
+        margin: none;
+        
+    }
+
+    #container {
+        width: 100%;
+        margin: 0px;
+
+    }
+}
+@media screen and (max-width: 302px){
+    #cb2{
+        display: block;
+    
+    }
+    #d1,#d2,#d3,#d4{
+        border: none;
+    }
+    #salas{
+        display: block;
+    }
+   
+    
+}
