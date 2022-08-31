@@ -145,7 +145,7 @@ function iniciar() {
                         <br><label id='myb2'>2ºB:  </label> <br><hr>
                         <br><label id='myb3'>3ºB: </label> <br><hr>
                         <br> <label id='myb4'>4ºB: </label><br><hr>
-                        <label id='myfaltas'><br>Faltas </label> <hr>
+                        <label id='myfaltas'><br>Faltas</label> <hr>
                         <label id='myobs'>Obs: <br></label>
   
                     </div>
@@ -159,7 +159,7 @@ function iniciar() {
                         <input id="b4" type="number" value='${dados.b4}'><br>
                         <input id="faltas" type="number" value='${dados.faltas}'><br>
                         <input id="obs" value='${dados.obs}'></input><br>      
-                        <input id="submit" type="submit">
+                        <input id="submit" type="submit" value="Salvar">
                         <input id="ids"type="text"  value='${doc.id}'><br>
                     </form>
                 </div>`
