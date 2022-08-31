@@ -103,6 +103,7 @@ a{
 }
 
 input{
+    background-color: white;
     padding: 10px;
     margin-bottom: 2px;
     margin-left: 2px;
