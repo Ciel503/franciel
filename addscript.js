@@ -1,3 +1,51 @@
+function next() {
+    let inpnome = document.getElementById("a");
+    inpnome.addEventListener("keypress", function (event) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            document.getElementById("b1").focus();
+        }
+    });
+
+    b1.addEventListener("keypress", function (event) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            document.getElementById("b2").focus();
+        }
+    });
+    b2.addEventListener("keypress", function (event) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            document.getElementById("b3").focus();
+        }
+    });
+    b3.addEventListener("keypress", function (event) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            document.getElementById("b4").focus();
+        }
+    });
+    b4.addEventListener("keypress", function (event) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            document.getElementById("faltas").focus();
+        }
+    });
+    faltas.addEventListener("keypress", function (event) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            document.getElementById("obs").focus();
+        }
+    });
+    obs.addEventListener("keypress", function (event) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            document.getElementById("btn1").click();
+        }
+    });
+
+}
+next()
 
 let ano = document.getElementById("ano");
 let auxAno = 0;
