@@ -232,17 +232,15 @@ label{
     #cb{
         font-size: 10px;
         margin-bottom: 0px;
-       
 
     }
-    #cb2{
-        
+    #cb2{  
         justify-content: start;
         margin-top: 0px;
-      
     }
+    
     textarea{
     background-color: white;
-}
+    }
 
   }
